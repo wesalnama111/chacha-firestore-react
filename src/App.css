@@ -1,0 +1,55 @@
+.App {
+ width: 100%;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.Box{
+  box-shadow: 4px 4px 7px #eee;
+  width: 400px;
+   height: 50%px;
+ text-align: center;
+   border: 1px solid #eee;
+   padding-top:30px;
+   padding-bottom:23px;
+}
+
+
+.InputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.InputElement:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+
+.referralMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.toggleroute{
+display: block;
+}
+.Button{
+  width: 50%;
+  padding: 10px;
+  margin: 9px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #428bca;
+  border: 1px solid rgb(29, 14, 1);
+  color: white;
+  text-align: center;
+}
